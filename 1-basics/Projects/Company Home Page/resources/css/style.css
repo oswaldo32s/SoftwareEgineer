@@ -1,0 +1,147 @@
+html {
+  background-color: black;
+  color: #999;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  position: relative;
+  top: 3.9rem;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+header .logo {
+  color: #999;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 2.5rem;
+  padding: 1rem;
+}
+
+
+header ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+header li {
+  font-size: 1.3rem;
+  padding: 0 3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header li:hover{
+  background-color: #666;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url(./../images/banner.jpg);
+  max-width: 100%;
+  opacity: 0.8;
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner p {
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  color: #e4e4e4;
+  text-align: center;
+  padding: 2rem;
+  line-height: 1.4;
+}
+
+.language {
+  display: flex;
+  justify-content: space-around;
+}
+
+.language-container {
+  background-color: #333;
+  width: 30%;
+  height: 25rem;
+  margin: 2rem 0;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.language-container h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.language-container p {
+  text-align: center;
+  padding: 1rem;
+  color: #999;
+  line-height: 1.4;
+  font-weight: 200;
+}
+
+.team {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #111;
+}
+
+.team-container {
+  display: inline-flex;
+  height: 70%;
+  padding: 1rem 5rem;
+
+}
+
+.team-container img{
+  border-radius: 50%;
+  margin: 0 3rem;
+}
+
+.team-text h1 {
+  font-size: 1.7rem;
+}
+
+.team-text P {
+  line-height: 2;
+}
+
+footer {
+  position: relative;
+  top: 3.9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
