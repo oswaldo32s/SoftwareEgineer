@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API Request</title>
+</head>
+<body>
+    <main>
+        <section class="word-API">
+            <article class="word-box">
+                <h1>Means Like</h1>
+                <p>Shows words that mean similar to the original word you input</p>
+                <h3>Enter a Word</h3>
+                <form id="form" autocomplete="off">
+                    <input type="text" id="input-means" value="">
+                    <button id="submit-means">SUBMIT</button>
+                </form>
+                <div class="response" id="response-means">
+                </div>             
+            </article>
+            <article class="word-box">
+                <h1>Sounds Like</h1>
+                <p>Shows words that sound similar to the original word you input</p>
+                <h3>Enter a Word</h3>
+                <form id="form" autocomplete="off">
+                    <input type="text" id="input-sounds" value="">
+                    <button id="submit-sounds">SUBMIT</button>
+                </form>
+                <div class="response" id="response-sounds">
+                    <p></p>
+                </div>  
+            </article>
+            <article class="word-box">
+                <h1>Related Word</h1>
+                <p>Shows words that are related to the original word you input</p>
+                <h3>Enter a Word</h3>
+                <form id="form" autocomplete="off">
+                    <input type="text" id="input-related" value="">
+                    <button id="submit-related">SUBMIT</button>
+                </form> 
+                <div class="response" id="response-related">
+                    <p></p>
+                </div>    
+            </article>
+        </section>
+    </main>
+<script src="main.js"></script>
+</body>
+</html>
