@@ -1,10 +1,12 @@
 header {
     align-items: center;
+    background-color: #293241;
     border-bottom: 1px solid #EEE;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .logo {
@@ -68,5 +70,34 @@ nav ul, header h1 {
     padding: 5px;
     text-align: center;
     width: 80%;
+    
+}
+
+.forum {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comment {
+    background-color: #495f80;
+    border: 1px solid #e0fbfc;
+    border-radius: 1rem;
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 85%;
+}
+
+.comment-info {
+    display: flex;
+}
+
+.comment-info img  {
+    border-radius: 50%;
+    height: 4rem;
+    margin: 0px 5px;
+    object-fit: cover;
+    width: 4rem;
     
 }

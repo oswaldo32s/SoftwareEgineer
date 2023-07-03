@@ -1,7 +1,8 @@
-import React from 'react'
-import './assets/App.css'
-import Header from './components/header'
-import LogIn from './components/login'
+import React from 'react';
+import './assets/App.css';
+import Header from './components/header';
+import Forum from './pages/forum/forum';
+import LogIn from './pages/login/login';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <>
       <Header/>
       <main>
-      <LogIn/>
+      <Forum/>
       </main>
     </>
   )
