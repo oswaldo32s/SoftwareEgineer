@@ -1,103 +1,219 @@
 header {
-    align-items: center;
-    background-color: #293241;
-    border-bottom: 1px solid #EEE;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+  align-items: center;
+  background-color: #e3e3e3;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .logo {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 header nav {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
-nav ul, header h1 {
-    margin: 0;
+nav ul,
+header h1 {
+  margin: 0;
 }
 
 .nav-button {
-    display: inline-block;
-    cursor: pointer;
-    font-size: 1.2rem;
-    font-weight: 500;
-    padding: 15px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 15px;
 }
 
 .nav-button:hover {
-    background-color: #495f80;
+  background-color: #ddb900;
+  color: #e3e3e3;
+  transition: all 0.5s ease;
 }
 
 .login {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
 
 .login-container {
-    width: 100%;
+  width: 100%;
 }
 
-.login form {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
+.login form,
+.sign-up-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-#login-submit {
-    background-color: #ee6c4d;
-    cursor: pointer;
-    font-weight: bold;
-    height: 2.5rem;
-    margin-top: 2rem;
-    width: 82%;
+#login-submit,
+#signup-submit {
+  background-color: #ddb900;
+  cursor: pointer;
+  font-weight: bold;
+  height: 2.2rem;
+  margin-top: 1.3rem;
+  width: 500px;
 }
 
-.login input {
-    background-color: #e0fbfc;
-    border: none;
-    border-radius: 10px;
-    height: 1.8rem;
-    margin: 5px 0;
-    padding: 5px;
-    text-align: center;
-    width: 80%;
-    
+.login input,
+.sign-up-form input {
+  background-color: #c0c0c0;
+  border: none;
+  border-radius: 10px;
+  height: 2rem;
+  margin: 5px 0;
+  padding: 5px;
+  text-align: center;
+  width: 500px;
 }
 
 .forum {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .comment {
-    background-color: #495f80;
-    border: 1px solid #e0fbfc;
-    border-radius: 1rem;
-    margin: 10px 0;
-    padding: 10px 20px;
-    width: 85%;
+  background-color: #495f80;
+  border: 1px solid #e0fbfc;
+  border-radius: 1rem;
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 85%;
 }
 
 .comment-info {
-    display: flex;
+  display: flex;
 }
 
-.comment-info img  {
-    border-radius: 50%;
-    height: 4rem;
-    margin: 0px 5px;
-    object-fit: cover;
-    width: 4rem;
-    
+.comment-info img {
+  border-radius: 50%;
+  height: 4rem;
+  margin: 0px 5px;
+  object-fit: cover;
+  width: 4rem;
+}
+
+.hooks-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  text-align: justify;
+}
+
+.hooks-def,
+.use-state {
+  padding: 1.5rem;
+  border: 1px solid #ddb900;
+  border-radius: 1rem;
+}
+
+.color-change {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.color-change-box {
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 80%;
+}
+
+.color-change-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.btn {
+  background-color: #e3e3e3;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-weight: bold;
+  padding: 2px 15px;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #ddb900;
+}
+
+.color-change-box p {
+  color: #ededed;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.use-state-examples {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  margin: 25px 0;
+  width: 100%;
+}
+
+.questionare {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionare nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.questionare span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.questionare-btns,
+.question-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  width: 90%;
+}
+
+.question input {
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
 }

@@ -1,0 +1,16 @@
+.searcher input {
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 0 10px;
+}
+
+.searcher input:focus {
+  outline: none;
+}
+
+.searcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

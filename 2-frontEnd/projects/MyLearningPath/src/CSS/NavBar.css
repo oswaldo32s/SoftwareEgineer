@@ -1,0 +1,26 @@
+header {
+    background-color: #d8dbdd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    padding-left: 2rem;
+    width: 50%;
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 500;
+    color: #444444;
+    height: 3rem;
+}

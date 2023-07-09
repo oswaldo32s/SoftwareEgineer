@@ -1,9 +1,7 @@
 import React from 'react'
+import {Link} from 'wouter'
 
 function Header() {
-    function handleClick() {
-        alert('Hold on, Site on Construction')
-    }
 
     return (
         <header>
@@ -12,10 +10,10 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li className='nav-button' onClick={handleClick}>Home</li>
-                    <li className='nav-button' onClick={handleClick}>Courses</li>
-                    <li className='nav-button' onClick={handleClick}>About Me</li>
-                    <li className='nav-button' onClick={handleClick}>Contact Me</li>
+                    <li className='nav-button'><Link to='/'>Home</Link></li>
+                    <li className='nav-button'><Link to='/gif/popular'>Courses</Link></li>
+                    <li className='nav-button'>About Me</li>
+                    <li className='nav-button'>Contact Me</li>
                 </ul>
             </nav>
         </header>
