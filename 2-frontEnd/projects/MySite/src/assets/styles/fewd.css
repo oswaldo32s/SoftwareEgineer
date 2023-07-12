@@ -1,0 +1,17 @@
+.course-fewd {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.course-main {
+  border: 1px solid white;
+  width: 95%;
+}
+
+.course-aside {
+  border: 1px solid white;
+  padding: 10px 20px;
+  width: 15%;
+}

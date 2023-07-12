@@ -1,0 +1,28 @@
+.sign-in {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.sign-in form {
+  align-items: center;
+  background-color: #393e46;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  width: 25%;
+}
+
+.sign-in-form input {
+  border: none;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.sign-in-form input:focus {
+  outline: none;
+}
